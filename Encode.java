@@ -5,7 +5,6 @@ import java.util.PriorityQueue;
 
 /**
  * Handles the binary output to a file
- * @author Greg Miller
  */
 class BinaryOutput {
     private BufferedOutputStream output;
@@ -116,7 +115,6 @@ class BinaryOutput {
 
 /**
  * Builds the huffman tree
- * @author Greg Miller
  */
 class HuffmanTree implements Comparable<HuffmanTree> {
     private int frequency;
@@ -185,7 +183,6 @@ class HuffmanTree implements Comparable<HuffmanTree> {
 
 /**
  * Builds the huffman codes and encodes the file
- * @author Greg Miller
  */
 class HuffmanCode {
     private HuffmanTree tree;
@@ -375,7 +372,6 @@ class HuffmanCode {
 
 /**
  * Processes input from the command line and gets the character frequencies
- * @author Greg Miller
  */
 public class Encode {
     
