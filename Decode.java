@@ -5,7 +5,6 @@ import java.util.HashMap;
 
 /**
  * Handles the binary input from the file
- * @author Greg Miller
  */
 class BinaryInput {
     private BufferedInputStream input;
@@ -123,7 +122,6 @@ class BinaryInput {
 
 /**
  * Builds the huffman codes and decodes the files
- * @author Greg Miller
  */
 class Huffman {
     private HashMap<String, Character> hashCodes = new HashMap<String, Character>();
@@ -258,7 +256,6 @@ class Huffman {
 
 /**
  * Processes the command line arguments and builds the output
- * @author Greg Miller
  */
 public class Decode {
     
